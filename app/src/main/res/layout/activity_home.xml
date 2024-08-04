@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:backgroundTint="#0D98BA"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/masterDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Master Data"
+        android:backgroundTint="#0D98BA"/>
+
+</LinearLayout>
